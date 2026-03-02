@@ -15,10 +15,6 @@ Backend Developer en formación · Estudiante de 2º DAM
 🌐 HTML · CSS · JavaScript  
 🔧 Git · Linux · Redes
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ruubeenn13&theme=github_dark" />
-</p>
-
 
 ## 📌 Ahora mismo
 
