@@ -1,16 +1,34 @@
-## Hi there 👋
+# 👋 Hola, soy Rubén
 
-<!--
-**ruubeenn13/ruubeenn13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Estudiante de 2º DAM  
+💻 Me gusta el backend, las bases de datos y entender cómo funcionan las cosas por dentro  
+🔧 Con base en sistemas y redes  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Tecnologías
+
+🟢 Java · Spring Boot  
+🗄️ MySQL · MariaDB  
+🌐 HTML · CSS · JavaScript  
+🔧 Git · Linux · Redes  
+
+---
+
+## 📌 Ahora mismo
+
+- Mejorando en Spring Boot
+- Construyendo proyectos reales
+- Aprendiendo buenas prácticas backend
+
+---
+
+## 📂 Proyectos destacados
+
+🧾 API REST con Spring Boot  
+🌐 Web completa desplegada  
+🔐 Proyecto con autenticación y base de datos  
+
+---
+
+✨ Siempre aprendiendo algo nuevo.
