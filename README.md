@@ -1,7 +1,9 @@
 # 👋 Hola, soy Rubén
 
-🎓 Estudiante de 2º DAM  
-💻 Me gusta el backend, las bases de datos y entender cómo funcionan las cosas por dentro  
+Backend Developer en formación · Estudiante de 2º DAM
+
+💻 Enfocado en backend y bases de datos  
+🔍 Me interesa entender cómo funcionan las cosas por dentro 
 🔧 Con base en sistemas y redes  
 
 ---
@@ -11,9 +13,12 @@
 🟢 Java · Spring Boot  
 🗄️ MySQL · MariaDB  
 🌐 HTML · CSS · JavaScript  
-🔧 Git · Linux · Redes  
+🔧 Git · Linux · Redes
 
----
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruubeenn13&layout=compact" />
+</p>
+
 
 ## 📌 Ahora mismo
 
@@ -25,10 +30,11 @@
 
 ## 📂 Proyectos destacados
 
-🧾 API REST con Spring Boot  
-🌐 Web completa desplegada  
-🔐 Proyecto con autenticación y base de datos  
+- 🔗 [API REST con Spring Boot](link)
+- 🔗 [Web completa desplegada](https://www.lamarmitaparallevar.com)
 
----
+### 🎯 Objetivo
+
+Convertirme en desarrollador backend profesional y trabajar en proyectos reales con impacto.
 
 ✨ Siempre aprendiendo algo nuevo.
