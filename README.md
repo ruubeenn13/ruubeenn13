@@ -16,7 +16,9 @@ Backend Developer en formación · Estudiante de 2º DAM
 🔧 Git · Linux · Redes
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruubeenn13&layout=compact" />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ruubeenn13&layout=compact&theme=dark&hide_border=true&bg_color=00000000" 
+  />
 </p>
 
 
