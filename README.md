@@ -3,7 +3,7 @@
 Backend Developer en formación · Estudiante de 2º DAM
 
 💻 Enfocado en backend y bases de datos  
-🔍 Me interesa entender cómo funcionan las cosas por dentro 
+🔍 Me interesa entender cómo funcionan las cosas por dentro  
 🔧 Con base en sistemas y redes  
 
 ---
