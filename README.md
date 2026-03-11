@@ -26,7 +26,7 @@ Backend Developer en formación · Estudiante de 2º DAM
 
 ## 📂 Proyectos destacados
 
-- 🔗 [Filmoteca en Java - Android Studio]((https://github.com/ruubeenn13/filmoteca-RubenJuan))
+- 🔗 [Filmoteca en Java - Android Studio](https://github.com/ruubeenn13/filmoteca-RubenJuan)
 - 🔗 [Web completa desplegada](https://www.lamarmitaparallevar.com)
 - 🔗 [Aprendiendo React](https://github.com/ruubeenn13/aprendiendo_react)
 
