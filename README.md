@@ -1,206 +1,129 @@
-# 👋 ¡Hola! Soy Rubén Juan
-
 <div align="center">
 
+```
+██████╗ ██╗   ██╗██████╗ ███████╗███╗   ██╗
+██╔══██╗██║   ██║██╔══██╗██╔════╝████╗  ██║
+██████╔╝██║   ██║██████╔╝█████╗  ██╔██╗ ██║
+██╔══██╗██║   ██║██╔══██╗██╔══╝  ██║╚██╗██║
+██║  ██║╚██████╔╝██████╔╝███████╗██║ ╚████║
+╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝
+```
+
+### Full Stack Developer · Crevillente, Alicante 🇪🇸
+
+*Construyo sistemas reales de principio a fin — desde la base de datos hasta el despliegue en producción*
+
+<br/>
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-**Backend Developer en formación | Estudiante de 2º DAM**
-
-*Construyendo aplicaciones desde cero, entendiendo cómo funcionan por dentro*
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Sobre mí
+## Sobre mí
 
-```java
-public class Ruben {
-    private String rol = "Backend Developer en formación";
-    private String educacion = "2º DAM (Desarrollo de Aplicaciones Multiplataforma)";
-    private String[] intereses = {"Backend", "Bases de datos", "Sistemas", "Arquitectura software"};
-    
-    public String getMision() {
-        return "Convertirme en desarrollador backend profesional " +
-               "y trabajar en proyectos reales con impacto";
-    }
-    
-    public boolean siempreAprendiendo() {
-        return true; // ✨
-    }
-}
-```
+DAM recién graduado con experiencia real en proyectos de producción. He construido desde cero un sistema de gestión de turnos para una empresa real (Enercoop) y una app Android con API propia desplegada en AWS — con ownership total en ambos.
 
-💻 **Enfocado en:** Backend development, bases de datos relacionales, APIs REST  
-🔍 **Me motiva:** Entender cómo funcionan las cosas por dentro y resolver problemas reales  
-🔧 **Base sólida en:** Sistemas, redes y arquitectura de software  
+En octubre empiezo un **curso de especialización en IA y Big Data** (600h, IES Severo Ochoa, Elche).
+
+Me muevo bien con responsabilidad directa, itero rápido y me importa que las cosas funcionen en producción, no solo en local.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🏗️ Proyectos
 
-### Backend & Databases
-```
-☕ Java              ████████████████████ 90%
-🌱 Spring Boot       ██████████░░░░░░░░░░ 50%
-🗄️ MySQL / MariaDB   ███████████████░░░░░ 75%
-🔐 SQLite            ████████████████████ 95%
-```
+### GymProFit — App Android + API REST en producción
+> App de fitness y nutrición con backend propio desplegado en AWS
 
-### Frontend & Mobile
-```
-📱 Android (Java)    ████████████████░░░░ 80%
-⚛️ React.js          ████████░░░░░░░░░░░░ 40%
-🎨 HTML/CSS/JS       ██████████████░░░░░░ 70%
-```
+**Stack:** `Java` `Spring Boot 3` `MariaDB` `AWS EC2` `nginx` `Flyway` `jOOQ` `MapStruct` `JWT`
 
-### Herramientas & Sistemas
-```
-🔧 Git & GitHub      ████████████████░░░░ 80%
-🐧 Linux             ████████████░░░░░░░░ 60%
-🌐 Redes             ███████████░░░░░░░░░ 55%
-📊 Maven / Gradle    ██████████░░░░░░░░░░ 50%
-```
+- API REST en Spring Boot 3 + Java 21 sobre EC2 con nginx como reverse proxy
+- Base de datos MariaDB con 18 tablas y migraciones versionadas con Flyway
+- App Android en Java con autenticación JWT, modo invitado y soporte multiidioma (ES/EN)
+- Despliegue completo en producción con systemd y restart automático
+
+🔗 [Ver repositorio](https://github.com/ruubeenn13/TFG-GymProFit)
 
 ---
 
-## 📂 Proyectos Destacados
+### Sistema de Gestión de Turnos — Enercoop (FCT 2026)
+> Sistema presencial de cola de atención para una cooperativa energética real
 
-### 🎬 [Filmoteca - Gestión de Películas](https://github.com/ruubeenn13/filmoteca-RubenJuan)
-> Aplicación Android completa para gestionar colecciones de películas
+**Stack:** `React` `Vite` `Supabase` `PostgreSQL` `WebSockets` `JavaScript`
+
+- Base de datos PostgreSQL con Supabase: esquema relacional, RLS por roles y RPCs
+- Backend con Supabase: autenticación, API REST, Edge Functions y lógica de negocio
+- Frontend en React + Vite con actualizaciones en tiempo real vía Supabase Realtime
+- Sistema multiidioma (ES/VAL/EN), reasignación automática y módulo de estadísticas
+- 5 perfiles de usuario: admin, gestor, usuario, kiosko, display
+
+*Proyecto en producción — repositorio privado*
+
+---
+
+### La Marmita Para Llevar — Web corporativa (FCT 2025)
+> Sitio web completo para restaurante de comida para llevar
+
+**Stack:** `HTML` `CSS` `JavaScript`
+
+- Diseño responsive adaptado a móvil y desktop
+- Secciones de menú, pedidos, horario y FAQ
+- Desplegado en producción con dominio propio
+
+🔗 [lamarmitaparallevar.com](https://lamarmitaparallevar.com)
+
+---
+
+### Filmoteca — App Android
+> Gestión de colecciones de películas
 
 **Stack:** `Java` `Android` `SQLite` `Material Design`
 
-**Features:**
-- ✅ Sistema de autenticación (login/registro)
-- ✅ CRUD completo con SQLite
-- ✅ SharedPreferences para configuración
-- ✅ Reproducción multimedia con MediaPlayer
-- ✅ Notificaciones locales
-- ✅ Menús contextuales y navegación avanzada
+- Autenticación, CRUD completo, reproducción multimedia y notificaciones locales
 
-**Aprendizajes clave:** Arquitectura Android, persistencia de datos, ciclo de vida de actividades
+🔗 [Ver repositorio](https://github.com/ruubeenn13/filmoteca-RubenJuan)
 
 ---
 
-### 🍽️ [La Marmita - Web para Cliente](https://www.lamarmitaparallevar.com)
-> Sitio web completo desarrollado para un restaurante de comida para llevar
+## 🛠️ Stack
 
-**Stack:** `HTML` `CSS` `JavaScript` `Responsive Design`
-
-**Features:**
-- ✅ Diseño responsive adaptado a móvil y desktop
-- ✅ Optimización SEO para búsquedas locales
-- ✅ Desplegado en producción con dominio propio
-- ✅ Menú interactivo y formulario de contacto
-- ✅ Optimización de rendimiento y carga rápida
-
-**Aprendizajes clave:** Trabajo con cliente real, deployment, hosting, diseño responsive, experiencia de usuario
-
----
-
-### ⚛️ [Aprendiendo React](https://github.com/ruubeenn13/aprendiendo_react)
-> Repositorio de aprendizaje con proyectos prácticos de React
-
-**Stack:** `React` `Vite` `JavaScript` `CSS`
-
-**Proyectos incluidos:**
-- 🎮 Tic Tac Toe - Juego interactivo con lógica de estado
-- 🖱️ Mouse Follower - useEffect y event listeners
-- 📊 Monitor Solar - Dashboard con componentes reutilizables
-
-**Aprendizajes clave:** Hooks (useState, useEffect), componentes, props, cleanup functions
-
----
-
-## 🎯 En qué estoy trabajando ahora
-
-### 📚 Aprendiendo
-- Spring Boot - APIs REST y arquitectura backend
-- JPA/Hibernate - ORM y persistencia de datos
-- Buenas prácticas - Clean Code, SOLID, patrones de diseño
-- Testing - JUnit, pruebas unitarias
-
-### 🔨 Construyendo
-- API REST con Spring Boot (próximamente)
-- Aplicación full-stack Java + React
-- Mejorando proyectos existentes
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruubeenn13&show_icons=true&theme=dark&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ruubeenn13&layout=compact&theme=dark&hide_border=true)
-
-</div>
+| Área | Tecnologías |
+|------|-------------|
+| **Backend** | Java · Spring Boot · Python · APIs REST |
+| **Frontend** | React · Vite · JavaScript · HTML · CSS |
+| **Bases de datos** | PostgreSQL · MariaDB · MySQL · Supabase |
+| **Cloud & Infra** | AWS EC2 · nginx · systemd · Git |
+| **Mobile** | Android (Java) |
+| **Herramientas** | Flyway · jOOQ · MapStruct · JWT · Swagger |
 
 ---
 
 ## 🎓 Formación
 
-**📖 2º DAM - Desarrollo de Aplicaciones Multiplataforma**
-- Programación Multimedia y Dispositivos Móviles
-- Acceso a Datos
-- Programación de Servicios y Procesos
-- Sistemas de Gestión Empresarial
-
-**💡 Áreas de interés:**
-- Arquitectura de software backend
-- Diseño de bases de datos relacionales
-- APIs RESTful y microservicios
-- Optimización y escalabilidad
+| | |
+|---|---|
+| **CFGS DAM** — Desarrollo de Aplicaciones Multiplataforma | IES Maciá Abela, Crevillente · 2024–2026 |
+| **Especialización IA & Big Data** *(oct. 2026)* | IES Severo Ochoa, Elche · 600h |
+| **CFGM SMR** — Sistemas Microinformáticos y Redes | IES Maciá Abela, Crevillente · 2022–2024 |
 
 ---
 
-## 🌱 Roadmap de Aprendizaje 2026
+## 📊 Stats
 
-```mermaid
-graph LR
-    A[Q1: Spring Boot] --> B[Q2: Microservicios]
-    B --> C[Q3: Docker/K8s]
-    C --> D[Q4: Cloud AWS/Azure]
-```
+<div align="center">
 
-### Q1 2026 (Actual)
-- [x] Fundamentos de Spring Boot
-- [x] APIs REST básicas
-- [ ] Spring Data JPA
-- [ ] Spring Security
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruubeenn13&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=E8710A&icon_color=E8710A)
 
-### Q2 2026
-- [ ] Arquitectura de microservicios
-- [ ] Mensajería (RabbitMQ/Kafka)
-- [ ] Testing avanzado
-- [ ] Documentación con Swagger
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ruubeenn13&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=E8710A)
 
-### Q3 2026
-- [ ] Docker y contenedores
-- [ ] Kubernetes básico
-- [ ] CI/CD pipelines
-- [ ] Monitoreo y logging
-
-### Q4 2026
-- [ ] Cloud (AWS o Azure)
-- [ ] Escalabilidad y performance
-- [ ] Patrones de diseño avanzados
-- [ ] Proyecto full-stack completo
-
----
-
-## 💼 Habilidades Blandas
-
-🧩 **Resolución de problemas** - Me gusta entender la raíz del problema  
-📖 **Aprendizaje continuo** - Siempre investigando y probando nuevas tecnologías  
-🤝 **Trabajo en equipo** - Colaboración en proyectos académicos y personales  
-📝 **Documentación** - Creo READMEs detallados y código autodocumentado  
+</div>
 
 ---
 
@@ -208,33 +131,7 @@ graph LR
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-ruubeenn13-181717?style=for-the-badge&logo=github)](https://github.com/ruubeenn13)
-
-**📧 Abierto a colaboraciones y oportunidades de aprendizaje**
-
-</div>
-
----
-
-## ⚡ Fun Facts
-
-```javascript
-const ruben = {
-    code: "Desde las 9 AM hasta tarde",
-    learn: "Documentación oficial > tutoriales",
-    debug: "console.log() es mi mejor amigo",
-    motto: "Si funciona, no lo toques... mentira, siempre se puede mejorar 😄"
-};
-```
-
----
-
-<div align="center">
-
-### 💡 "El código limpio siempre parece que fue escrito por alguien a quien le importa"
-
-**Última actualización:** Marzo 2026
-
-⭐ Si te gusta algún proyecto, ¡dale una estrella! ⭐
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rubén_Juan_Candela-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/rubén-juan-candela-9743a026a)
+[![Email](https://img.shields.io/badge/Email-rubenjuancandela06@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubenjuancandela06@gmail.com)
 
 </div>
