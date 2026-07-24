@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Rubén Juan Candela — Full Stack Developer">
+  <defs>
+    <style>
+      .sans { font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    </style>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8710A" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#E8710A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- lienzo -->
+  <rect width="1200" height="300" rx="10" fill="#0D1117"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="10" fill="none" stroke="#21262D"/>
+  <rect x="0" y="0" width="1200" height="2" fill="url(#fade)"/>
+
+  <!-- identidad -->
+  <rect x="64" y="60" width="4" height="66" rx="2" fill="#E8710A"/>
+  <text class="sans" x="88" y="97" font-size="42" font-weight="700" fill="#E6EDF3" letter-spacing="1.5">Rubén Juan Candela</text>
+  <text class="mono" x="90" y="122" font-size="15" fill="#7D8590" letter-spacing="4.5">FULL STACK DEVELOPER</text>
+
+  <line x1="64" y1="164" x2="620" y2="164" stroke="#21262D" stroke-width="1"/>
+
+  <text class="mono" x="64" y="196" font-size="16" fill="#8B949E">de la base de datos al despliegue,</text>
+  <text class="mono" x="64" y="220" font-size="16" fill="#8B949E">sin saltarse ninguna capa</text>
+
+  <text class="mono" x="64" y="262" font-size="13.5" fill="#6E7681" letter-spacing="1">Crevillente · Alicante · España</text>
+
+  <!-- capas -->
+  <g>
+    <!-- despliegue -->
+    <rect x="780" y="47" width="356" height="44" rx="6" fill="#161B22" stroke="#21262D"/>
+    <rect x="780" y="47" width="3" height="44" rx="1.5" fill="#E8710A" fill-opacity="0.3"/>
+    <text class="mono" x="800" y="74" font-size="14.5" fill="#E6EDF3">despliegue</text>
+    <text class="mono" x="1116" y="74" font-size="12.5" fill="#6E7681" text-anchor="end">docker · render · ec2</text>
+
+    <!-- frontend -->
+    <rect x="780" y="101" width="356" height="44" rx="6" fill="#161B22" stroke="#21262D"/>
+    <rect x="780" y="101" width="3" height="44" rx="1.5" fill="#E8710A" fill-opacity="0.5"/>
+    <text class="mono" x="800" y="128" font-size="14.5" fill="#E6EDF3">frontend</text>
+    <text class="mono" x="1116" y="128" font-size="12.5" fill="#6E7681" text-anchor="end">react · vite</text>
+
+    <!-- backend -->
+    <rect x="780" y="155" width="356" height="44" rx="6" fill="#161B22" stroke="#21262D"/>
+    <rect x="780" y="155" width="3" height="44" rx="1.5" fill="#E8710A" fill-opacity="0.75"/>
+    <text class="mono" x="800" y="182" font-size="14.5" fill="#E6EDF3">backend</text>
+    <text class="mono" x="1116" y="182" font-size="12.5" fill="#6E7681" text-anchor="end">java · spring boot</text>
+
+    <!-- datos -->
+    <rect x="780" y="209" width="356" height="44" rx="6" fill="#161B22" stroke="#21262D"/>
+    <rect x="780" y="209" width="3" height="44" rx="1.5" fill="#E8710A"/>
+    <text class="mono" x="800" y="236" font-size="14.5" fill="#E6EDF3">datos</text>
+    <text class="mono" x="1116" y="236" font-size="12.5" fill="#6E7681" text-anchor="end">postgresql · mysql</text>
+  </g>
+</svg>
