@@ -1,0 +1,41 @@
+# Guardar en: .github/workflows/profile-summary-cards.yml
+#
+# Genera las tarjetas de estadísticas y las COMMITEA al repo, en
+# profile-summary-card-output/. Así las imágenes se sirven desde tu propio
+# repositorio y no dependen de ninguna instancia externa que se pueda caer.
+#
+# Pasos previos (una sola vez):
+#   1. GitHub > Settings > Developer settings > Personal access tokens >
+#      Tokens (classic) > Generate new token. Marca solo el scope "public_repo".
+#      Sin fecha de caducidad (si caduca, las tarjetas dejan de actualizarse).
+#   2. En el repo ruubeenn13/ruubeenn13: Settings > Secrets and variables >
+#      Actions > New repository secret. Nombre: SUMMARY_GITHUB_TOKEN.
+#   3. Commitea este fichero y lánzalo a mano: pestaña Actions >
+#      "GitHub Profile Summary Cards" > Run workflow.
+
+name: GitHub Profile Summary Cards
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # cada día a las 05:00 UTC (07:00 en España, verano)
+  workflow_dispatch:      # botón para ejecutarlo a mano
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"   # cámbialo si tu rama por defecto es master
+          UTC_OFFSET: 2         # Europe/Madrid en horario de verano (1 en invierno)
+          EXCLUDE: ""
+          AUTO_PUSH: true
