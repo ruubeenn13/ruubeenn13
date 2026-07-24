@@ -34,10 +34,9 @@ En **octubre de 2026** empiezo el curso de especialización en **IA y Big Data**
 <img src="https://img.shields.io/badge/GitHub%20Actions-21262D?style=flat-square" alt="GitHub Actions">
 </p>
 
-|  |  |  |  |
-|:--:|:--:|:--:|:--:|
 | **253** | **~26.600** | **+60** | **556** |
-| clases Java | líneas | comandos slash | tests |
+|:--:|:--:|:--:|:--:|
+| clases Java | líneas de Java | comandos slash | tests |
 
 - **Arquitectura por capas propia, sin framework:** `commands` · `services` · `api` · `db` · `embeds` · `jobs` · `i18n`
 - **Economía RPG completa:** progresión y XP, trabajo y carrera, empresas con gobernanza e impuestos, combate por turnos, minería y crafteo, banca, bolsa, gremios y mercado entre jugadores
@@ -188,17 +187,41 @@ En **octubre de 2026** empiezo el curso de especialización en **IA y Big Data**
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/output/github-snake-dark.svg" width="100%" alt="Gráfico de contribuciones" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/output/github-snake.svg" width="100%" alt="Gráfico de contribuciones" />
+</picture>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/0-profile-details.svg" width="90%" alt="Resumen del perfil" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/0-profile-details.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/0-profile-details.svg" />
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/0-profile-details.svg" width="90%" alt="Resumen del perfil" />
+</picture>
 
-<img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/3-stats.svg" width="49%" alt="Estadísticas" />
-<img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" alt="Horario productivo" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/3-stats.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/3-stats.svg" />
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/3-stats.svg" width="49%" alt="Estadísticas" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/4-productive-time.svg" />
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" alt="Horario productivo" />
+</picture>
 
-<img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repositorios por lenguaje" />
-<img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" alt="Lenguajes más usados" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/1-repos-per-language.svg" />
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repositorios por lenguaje" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/2-most-commit-language.svg" />
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" alt="Lenguajes más usados" />
+</picture>
 
 </div>
 
