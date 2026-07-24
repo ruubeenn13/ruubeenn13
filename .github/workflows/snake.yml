@@ -1,0 +1,44 @@
+# Guardar en: .github/workflows/snake.yml
+#
+# Genera la animación de la serpiente comiéndose tu grafo de contribuciones
+# y la publica en una rama aparte llamada "output", para no ensuciar main.
+# No necesita PAT: usa el GITHUB_TOKEN que GitHub inyecta solo.
+#
+# Después de commitear esto: Actions > "Serpiente de contribuciones" > Run workflow.
+# Cuando termine, tendrás una rama "output" con los dos SVG dentro.
+
+name: Serpiente de contribuciones
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # cada día a las 04:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generar los SVG
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publicar en la rama output
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
