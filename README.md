@@ -143,8 +143,6 @@ En **octubre de 2026** empiezo el curso de especialización en **IA y Big Data**
 <p>
 <img src="https://img.shields.io/badge/Android-21262D?style=flat-square" alt="Android">
 <img src="https://img.shields.io/badge/SQLite-21262D?style=flat-square" alt="SQLite">
-<img src="https://img.shields.io/badge/JavaScript-21262D?style=flat-square" alt="JavaScript">
-<img src="https://img.shields.io/badge/HTML%20%2F%20CSS-21262D?style=flat-square" alt="HTML / CSS">
 </p>
 
 <ul>
