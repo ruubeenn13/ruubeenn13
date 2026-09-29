@@ -148,7 +148,6 @@ En **octubre de 2026** empiezo el curso de especialización en **IA y Big Data**
 </p>
 
 <ul>
-<li><b><a href="https://lamarmitaparallevar.com">La Marmita Para Llevar</a></b> — web corporativa para restaurante de comida para llevar: menú, pedidos, horarios y FAQ. Responsive y desplegada con dominio propio.</li>
 <li><b><a href="https://github.com/ruubeenn13/filmoteca-RubenJuan">Filmoteca</a></b> — app Android de gestión de colecciones de películas: autenticación, CRUD completo, reproducción multimedia y notificaciones locales.</li>
 </ul>
 
