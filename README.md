@@ -1,232 +1,97 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/banner.svg" width="100%" alt="Rubén Juan Candela — Full Stack Developer" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/banner-light.svg">
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/banner-light.svg" width="100%" alt="Rubén Juan Candela · Full Stack Developer · Java, Spring Boot, React y TypeScript. Disponible. De la base de datos al despliegue, sin saltarse ninguna capa.">
+</picture>
+
+🟢 **Disponible · incorporación inmediata** — Full Stack, Backend Java o Frontend React<br>
+📍 Alicante · Elche · remoto &nbsp;·&nbsp; Español nativo · Inglés B2
+
+<a href="https://www.linkedin.com/in/rubenjuancandela"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/contacto-linkedin-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/contacto-linkedin-light.svg"><img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/contacto-linkedin-light.svg" height="40" alt="LinkedIn"></picture></a>
+<a href="mailto:rubenjuancandela06@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/contacto-email-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/contacto-email-light.svg"><img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/contacto-email-light.svg" height="40" alt="Email: rubenjuancandela06@gmail.com"></picture></a>
 
 </div>
 
-## Sobre mí
+**Desarrollador Full Stack junior** (DAM, 2026). Me ocupo de todas las capas: modelo de datos, API, frontend, tests y despliegue.
 
-Graduado en **DAM** con experiencia real en sistemas en producción, no solo en proyectos de clase.
+En **Grupo Enercoop** diseñé y construí desde cero un gestor de turnos en tiempo real que hoy está **en producción**. Por mi cuenta mantengo **GymProFit** (API Spring Boot + app Android + panel React) y **GymProBot**, un bot de Discord que se prueba y se despliega solo en mi propio servidor Linux.
 
-He construido y desplegado un backend Spring Boot con su app Android, un bot de Discord de ~27k líneas de Java, y un sistema interno en producción para una cooperativa energética real (**Enercoop**) — con ownership completo en todos: base de datos, backend, frontend, despliegue y documentación.
+<sub>*EN: Junior full-stack developer who builds, tests and ships — from the database to deployment.*</sub>
 
-En **octubre de 2026** empiezo el curso de especialización en **IA y Big Data** (600 h, IES Severo Ochoa, Elche), y mientras tanto me estoy preparando por mi cuenta con un plan estructurado de 16 semanas.
+## Lo que he construido
 
-> 🟢 **Abierto a nuevas oportunidades** como Full Stack / Backend Java / Frontend React.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-enercoop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-enercoop-light.svg">
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-enercoop-light.svg" width="100%" alt="Gestor de turnos en tiempo real para Grupo Enercoop, en producción: 139 tests con Vitest, 13 contenedores Docker y seguridad por roles con RLS. Panel React + Vite, Supabase autoalojado con PostgreSQL detrás de nginx y agente Python para kiosko y puestos con escáner e impresora térmica.">
+</picture>
 
----
+- **Lógica en PostgreSQL:** asignación automática de turnos por prioridad y seguridad por roles con **RLS**.
+- **Supabase autoalojado** en Docker (13 contenedores) detrás de nginx, con **CI/CD en GitLab** y **139 tests** automatizados con Vitest.
+- **Agente en Python** para los puestos de atención y el kiosko, integrado con escáner e impresora térmica.
 
-## Proyecto destacado
+<sub>Prácticas FCT (400 h, mar–jun 2026) y después contrato temporal (jun–jul 2026) para desplegarlo. Sistema interno de la empresa: sin enlace ni capturas.</sub>
 
-### 🤖 GymProBot — Bot de Discord con economía RPG y API propia
+<br>
 
-> Comunidad fitness gamificada sobre Discord, conectada en vivo con la API de GymProFit
+<a href="https://github.com/ruubeenn13/GymProFit">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-gymprofit-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-gymprofit-light.svg">
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-gymprofit-light.svg" width="100%" alt="GymProFit: app Android, API REST en Spring Boot con JWT, refresh token rotado y roles, y panel web en React + TypeScript. Más de 870 tests en CI, 239 endpoints REST y 25 tablas en MySQL. API en api.gymprofit.app.">
+</picture>
+</a>
 
-<p>
-<img src="https://img.shields.io/badge/Java%2021-21262D?style=flat-square" alt="Java 21">
-<img src="https://img.shields.io/badge/JDA%205-21262D?style=flat-square" alt="JDA 5">
-<img src="https://img.shields.io/badge/Retrofit2%20%2B%20OkHttp-21262D?style=flat-square" alt="Retrofit2 + OkHttp">
-<img src="https://img.shields.io/badge/Aiven%20MySQL-21262D?style=flat-square" alt="Aiven MySQL">
-<img src="https://img.shields.io/badge/Flyway-21262D?style=flat-square" alt="Flyway">
-<img src="https://img.shields.io/badge/HikariCP-21262D?style=flat-square" alt="HikariCP">
-<img src="https://img.shields.io/badge/Docker-21262D?style=flat-square" alt="Docker">
-<img src="https://img.shields.io/badge/Render-21262D?style=flat-square" alt="Render">
-<img src="https://img.shields.io/badge/GitHub%20Actions-21262D?style=flat-square" alt="GitHub Actions">
-</p>
+- **Spring Security con JWT**, refresh token rotado y permisos por rol (`ADMIN`, `USER`, `GUEST`).
+- **Audité mi propia API:** encontré y cerré varias vulnerabilidades IDOR y una escalada de privilegios, y cubrí con tests de acceso ajeno las rutas con id.
+- **CI en GitHub Actions** para la API (contra una MariaDB efímera), la app Android y el panel web; las actualizaciones de Dependabot solo se fusionan con el CI en verde.
+- API desplegada primero en **AWS EC2** y después en **Render**, con dominio propio (`api.gymprofit.app`); el panel vive en `admin.gymprofit.app`, detrás de Cloudflare Access.
 
-| **253** | **~26.600** | **+60** | **556** |
-|:--:|:--:|:--:|:--:|
-| clases Java | líneas de Java | comandos slash | tests |
+**[Ver el repositorio de GymProFit →](https://github.com/ruubeenn13/GymProFit)**
 
-- **Arquitectura por capas propia, sin framework:** `commands` · `services` · `api` · `db` · `embeds` · `jobs` · `i18n`
-- **Economía RPG completa:** progresión y XP, trabajo y carrera, empresas con gobernanza e impuestos, combate por turnos, minería y crafteo, banca, bolsa, gremios y mercado entre jugadores
-- **32 migraciones Flyway** sobre 35 tablas · tests con JUnit 5, Mockito, MockWebServer y Testcontainers como gate de CI
-- **Bilingüe ES/EN** con `ResourceBundle`, jobs programados con TZ fija y health server sin Spring (`com.sun.net.httpserver`)
-- **RGPD por diseño:** texto libre cifrado con AES-256-GCM, comandos de exportación y borrado de datos, y job de retención automática
-- **Docker multi-stage** desplegado en Render con blueprint (`render.yaml`), health check y secretos fuera del repo
+<br>
 
-<a href="https://github.com/ruubeenn13/gymprofit-bot">Ver repositorio →</a>
+<a href="https://github.com/ruubeenn13/gymprofit-bot">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-gymprobot-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-gymprobot-light.svg">
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/proyecto-gymprobot-light.svg" width="100%" alt="GymProBot: bot de Discord en Java 21 + JDA 5 conectado a la API de GymProFit. 65 comandos slash, más de 660 tests y unas 21 000 líneas de Java. Cada push a main pasa el CI y, solo si está en verde, se construye la imagen Docker y se despliega en el homelab con aviso por ntfy.">
+</picture>
+</a>
 
----
+- **Sin framework:** arquitectura por capas propia sobre JDA, sin Spring (comandos, servicios, cliente de API, repositorios JDBC, jobs e i18n ES/EN).
+- **Despliegue continuo:** cada push a `main` pasa build y tests (JUnit 5, Mockito y Testcontainers con MySQL real); solo si el CI está en verde, un runner self-hosted construye la imagen Docker y la despliega en mi homelab, con aviso por ntfy.
+- **Cliente de la API de GymProFit** con Retrofit: JWT con renovación ante 401, caché y reintentos con backoff.
+- **RGPD por diseño:** texto libre cifrado con AES-256-GCM, exportación y borrado de datos y retención automática. 39 migraciones Flyway sobre 38 tablas.
 
-## Más proyectos
+**[Ver el repositorio de GymProBot →](https://github.com/ruubeenn13/gymprofit-bot)**
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### También
 
-### 💪 GymProFit
-
-<em>App Android + API REST en producción · TFG</em>
-
-<p>
-<img src="https://img.shields.io/badge/Java%2021-21262D?style=flat-square" alt="Java 21">
-<img src="https://img.shields.io/badge/Spring%20Boot%203-21262D?style=flat-square" alt="Spring Boot 3">
-<img src="https://img.shields.io/badge/MariaDB%20%2F%20MySQL-21262D?style=flat-square" alt="MariaDB / MySQL">
-<img src="https://img.shields.io/badge/jOOQ-21262D?style=flat-square" alt="jOOQ">
-<img src="https://img.shields.io/badge/MapStruct-21262D?style=flat-square" alt="MapStruct">
-<img src="https://img.shields.io/badge/JWT-21262D?style=flat-square" alt="JWT">
-<img src="https://img.shields.io/badge/AWS%20EC2-21262D?style=flat-square" alt="AWS EC2">
-<img src="https://img.shields.io/badge/nginx-21262D?style=flat-square" alt="nginx">
-</p>
-
-<ul>
-<li>API REST en <b>Spring Boot 3 + Java 21</b>, con jOOQ para consultas tipadas y MapStruct para el mapeo de DTOs</li>
-<li>Base de datos de <b>18 tablas</b> con migraciones versionadas en Flyway</li>
-<li>App <b>Android en Java</b>: autenticación JWT, modo invitado y multiidioma (ES/EN)</li>
-<li><b>Desplegada en dos infraestructuras reales:</b> AWS EC2 con nginx como reverse proxy y servicio systemd con reinicio automático, y Render + Aiven MySQL con TLS <code>verify-full</code></li>
-</ul>
-
-<a href="https://github.com/ruubeenn13/TFG-GymProFit">Ver repositorio →</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🎫 Gestor de Turnos — Enercoop
-
-<em>Cola de atención presencial para una cooperativa energética · En producción</em>
-
-<p>
-<img src="https://img.shields.io/badge/React%2019-21262D?style=flat-square" alt="React 19">
-<img src="https://img.shields.io/badge/Vite-21262D?style=flat-square" alt="Vite">
-<img src="https://img.shields.io/badge/Supabase-21262D?style=flat-square" alt="Supabase">
-<img src="https://img.shields.io/badge/PostgreSQL-21262D?style=flat-square" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/Docker%20Compose-21262D?style=flat-square" alt="Docker Compose">
-<img src="https://img.shields.io/badge/Vitest-21262D?style=flat-square" alt="Vitest">
-<img src="https://img.shields.io/badge/GitLab%20CI%2FCD-21262D?style=flat-square" alt="GitLab CI/CD">
-</p>
-
-<ul>
-<li><b>Supabase autoalojado</b> con Docker Compose (13 contenedores): auth, API REST, Edge Functions y lógica de negocio</li>
-<li>PostgreSQL con esquema relacional, <b>RLS por roles</b> y RPCs</li>
-<li>Frontend React + Vite con actualizaciones <b>en tiempo real</b> vía Supabase Realtime</li>
-<li><b>5 perfiles de usuario</b> (admin, gestor, usuario, kiosko, display), reasignación automática y módulo de estadísticas</li>
-<li>Multiidioma <b>ES/VAL/EN</b> · agente de kiosko independiente · pipeline de CI/CD en GitLab</li>
-</ul>
-
-<em>Proyecto interno en producción — repositorio privado</em>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 iabd-prep
-
-<em>Plan de autoformación de 16 semanas en IA y Big Data</em>
-
-<p>
-<img src="https://img.shields.io/badge/Python-21262D?style=flat-square" alt="Python">
-<img src="https://img.shields.io/badge/MongoDB-21262D?style=flat-square" alt="MongoDB">
-<img src="https://img.shields.io/badge/AWS-21262D?style=flat-square" alt="AWS">
-<img src="https://img.shields.io/badge/Hadoop-21262D?style=flat-square" alt="Hadoop">
-<img src="https://img.shields.io/badge/Spark-21262D?style=flat-square" alt="Spark">
-<img src="https://img.shields.io/badge/Kafka-21262D?style=flat-square" alt="Kafka">
-<img src="https://img.shields.io/badge/Airflow-21262D?style=flat-square" alt="Airflow">
-</p>
-
-<ul>
-<li>Ruta estructurada: Python base → NoSQL → Cloud → Big Data/ETL → Hadoop → Spark → Kafka/NiFi/Airflow → Hugging Face → IoT</li>
-<li>Ejercicios y notebooks propios, con progreso semanal versionado</li>
-<li>Preparación para el curso de especialización que empiezo en octubre</li>
-</ul>
-
-<a href="https://github.com/ruubeenn13/iabd-prep">Ver repositorio →</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 📁 Anteriores
-
-<em>Primeros proyectos del ciclo</em>
-
-<p>
-<img src="https://img.shields.io/badge/Android-21262D?style=flat-square" alt="Android">
-<img src="https://img.shields.io/badge/SQLite-21262D?style=flat-square" alt="SQLite">
-</p>
-
-<ul>
-<li><b><a href="https://github.com/ruubeenn13/filmoteca-RubenJuan">Filmoteca</a></b> — app Android de gestión de colecciones de películas: autenticación, CRUD completo, reproducción multimedia y notificaciones locales.</li>
-</ul>
-
-</td>
-</tr>
-</table>
-
----
+- **[Homelab](https://github.com/ruubeenn13/homelab)** — Portátil reutilizado con Ubuntu Server 24.04 y Docker Compose: 14 stacks, Traefik v3 con TLS wildcard, Prometheus + Grafana, Uptime Kuma + ntfy, backups 3-2-1 (restic + Backblaze B2) y ningún puerto abierto al exterior (Cloudflare Tunnel + Tailscale). Aquí vive GymProBot.
 
 ## Stack
 
-| Área | Tecnologías |
-|------|-------------|
-| **Backend** | Java 21 · Spring Boot 3 · JDA 5 · Python · APIs REST |
-| **Frontend** | React 19 · Vite · JavaScript · HTML · CSS |
-| **Bases de datos** | PostgreSQL · MySQL · MariaDB · SQLite · Supabase |
-| **Persistencia** | Flyway · jOOQ · MapStruct · HikariCP · JDBC |
-| **Cloud & Infra** | AWS EC2 · Render · Aiven · Docker · nginx · systemd |
-| **CI/CD & Testing** | GitHub Actions · GitLab CI/CD · JUnit 5 · Mockito · Testcontainers · Vitest |
-| **Mobile** | Android (Java) |
-| **Otros** | JWT · Retrofit2 · OkHttp · Swagger/OpenAPI · Git · i18n (ES/VAL/EN) |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/stack-light.svg">
+  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/assets/stack-light.svg" width="100%" alt="Stack. Backend: Java, Spring Boot, Spring Security, Python, Maven, JUnit 5 y Flyway. Frontend y móvil: React, TypeScript, JavaScript, Vite, Vitest, Android, HTML5 y CSS3. DevOps y datos: Docker, Linux, nginx, Traefik, GitHub Actions, GitLab CI/CD, Cloudflare, AWS, PostgreSQL, MySQL, Supabase, Prometheus y Grafana.">
+</picture>
 
----
+## Ahora mismo
+
+- Desde **octubre de 2026** curso la **Especialización en Inteligencia Artificial y Big Data** (IES Severo Ochoa, Elche · 600 h · lunes, miércoles y viernes de 17 a 21 h).
+- Preparación por mi cuenta en Python, pandas, MongoDB y AWS: [iabd-prep](https://github.com/ruubeenn13/iabd-prep).
 
 ## Formación
 
-| | |
-|---|---|
-| **Especialización en IA y Big Data** · 600 h *(desde oct. 2026)* | IES Severo Ochoa, Elche |
-| **CFGS DAM** — Desarrollo de Aplicaciones Multiplataforma | IES Macià Abela, Crevillente · 2024–2026 |
-| **CFGM SMR** — Sistemas Microinformáticos y Redes | IES Macià Abela, Crevillente · 2022–2024 |
+| Título | Centro | Años |
+|---|---|---|
+| **CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)** | IES Macià Abela, Crevillente | 2024–2026 |
+| **CFGM Sistemas Microinformáticos y Redes (SMR)** | IES Macià Abela, Crevillente | 2022–2024 |
 
----
+## Contacto
 
-## Actividad
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/output/github-snake.svg" width="100%" alt="Gráfico de contribuciones" />
-</picture>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/0-profile-details.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/0-profile-details.svg" />
-  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/0-profile-details.svg" width="90%" alt="Resumen del perfil" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/3-stats.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/3-stats.svg" />
-  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/3-stats.svg" width="49%" alt="Estadísticas" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/4-productive-time.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/4-productive-time.svg" />
-  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/4-productive-time.svg" width="49%" alt="Horario productivo" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/1-repos-per-language.svg" />
-  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repositorios por lenguaje" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github/2-most-commit-language.svg" />
-  <img src="https://raw.githubusercontent.com/ruubeenn13/ruubeenn13/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" alt="Lenguajes más usados" />
-</picture>
-
-</div>
-
----
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rubén_Juan_Candela-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rub%C3%A9n-juan-candela-9743a026a)
-[![Email](https://img.shields.io/badge/rubenjuancandela06@gmail.com-E8710A?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rubenjuancandela06@gmail.com)
-
-</div>
+¿Tienes un puesto **Full Stack, Backend Java o Frontend React** en Alicante, Elche o en remoto? Escríbeme a **rubenjuancandela06@gmail.com** o por **[LinkedIn](https://www.linkedin.com/in/rubenjuancandela)**.

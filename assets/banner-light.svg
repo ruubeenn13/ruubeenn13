@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title">
+<title id="title">Rubén Juan Candela — Full Stack Developer · Java · Spring Boot · React · TypeScript. Disponible. De la base de datos al despliegue, sin saltarse ninguna capa.</title>
+<style>
+.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.p{animation:flow 3.6s linear infinite}
+@keyframes flow{0%{stroke-dashoffset:16}38%,100%{stroke-dashoffset:-100}}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.2s cubic-bezier(0,0,.2,1) infinite}
+@keyframes ping{0%{transform:scale(1);opacity:.55}75%,100%{transform:scale(2.9);opacity:0}}
+@keyframes type{from{transform:translateX(0)}to{transform:translateX(504px)}}
+@keyframes blink{50%{opacity:0}}
+.cover{animation:type 3.3s steps(60,end) .9s both}
+.cur{animation:type 3.3s steps(60,end) .9s both,blink 1.1s step-end 4.2s infinite}
+.lit{animation:lit 4.8s ease-out infinite both}
+@keyframes lit{0%{opacity:1}22%,100%{opacity:.28}}
+.climb{animation:climb 4.8s linear infinite}
+@keyframes climb{0%{stroke-dashoffset:14}30%,100%{stroke-dashoffset:-100}}
+@media (prefers-reduced-motion:reduce){.cover,.cur,.lit,.climb{animation:none}.p,.ping{animation:none}}
+</style>
+<defs><radialGradient id="glow" cx="0.78" cy="0.5" r="0.5"><stop offset="0" stop-color="#e8710a" stop-opacity="0.07"/><stop offset="1" stop-color="#e8710a" stop-opacity="0"/></radialGradient><clipPath id="tclip"><rect x="52.8" y="224" width="504.5" height="22"/></clipPath><clipPath id="win"><rect x="1" y="1" width="898" height="298" rx="12"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="899" height="299" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<g clip-path="url(#win)">
+<rect x="0" y="0" width="900" height="36" fill="#f6f8fa"/>
+<path d="M0 36.5H900" stroke="#d0d7de"/>
+</g>
+<circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+<circle cx="42" cy="18" r="6" fill="#febc2e"/>
+<circle cx="62" cy="18" r="6" fill="#28c840"/>
+<text x="450" y="22.5" class="m" font-size="12" fill="#6e7781" text-anchor="middle">ruben@homelab: ~</text>
+<circle class="ping" cx="801" cy="18" r="4" fill="#1a7f37"/><circle cx="801" cy="18" r="4" fill="#1a7f37"/>
+<text x="812" y="22.5" class="m" font-size="11" fill="#1a7f37" textLength="66" lengthAdjust="spacing">disponible</text>
+<text x="36" y="76" class="m" font-size="14"><tspan fill="#bc4c00">$</tspan><tspan fill="#59636e"> whoami</tspan></text>
+<text x="36" y="124" class="s" font-size="42" fill="#1f2328" font-weight="700" letter-spacing="-0.4">Rubén Juan Candela</text>
+<text x="37" y="158" class="s" font-size="21" fill="#bc4c00" font-weight="600">Full Stack Developer</text>
+<text x="37" y="186" class="m" font-size="14.5" fill="#59636e">Java · Spring Boot · React · TypeScript</text>
+<text x="36" y="240" class="m" font-size="14" fill="#bc4c00">$</text>
+<text x="52.8" y="240" class="m" font-size="14" fill="#1f2328" textLength="504" lengthAdjust="spacing">de la base de datos al despliegue, sin saltarse ninguna capa</text>
+<g clip-path="url(#tclip)"><rect x="52.8" y="224" width="516" height="22" fill="#ffffff" class="cover" transform="translate(504 0)"/></g>
+<rect x="52.8" y="227.5" width="7.2" height="16" fill="#e8710a" class="cur" opacity=".85" transform="translate(504 0)"/>
+<text x="36" y="272" class="m" font-size="12" fill="#6e7781">Alicante · Elche · remoto</text>
+<g clip-path="url(#win)"><rect x="0" y="37" width="900" height="263" fill="url(#glow)"/></g>
+<path d="M580 205V79" stroke="#d0d7de" stroke-width="1.5"/>
+<path class="climb" d="M580 205V79" pathLength="100" stroke-dasharray="14 220" stroke-dashoffset="14" stroke="#e8710a" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+<rect x="596" y="62" width="270" height="34" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
+<rect x="596" y="62" width="3" height="34" fill="#e8710a" class="lit" style="animation-delay:1.44s"/>
+<text x="612" y="84" class="m" font-size="13" fill="#1f2328">despliegue</text>
+<text x="854" y="84" class="m" font-size="11" fill="#6e7781" text-anchor="end">docker · ci/cd · linux</text>
+<circle cx="580" cy="79" r="3.5" fill="#ffffff" stroke="#d0d7de"/>
+<circle class="lit" cx="580" cy="79" r="3.5" fill="#e8710a" style="animation-delay:1.44s"/>
+<rect x="596" y="104" width="270" height="34" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
+<rect x="596" y="104" width="3" height="34" fill="#e8710a" class="lit" style="animation-delay:0.96s"/>
+<text x="612" y="126" class="m" font-size="13" fill="#1f2328">frontend</text>
+<text x="854" y="126" class="m" font-size="11" fill="#6e7781" text-anchor="end">react · typescript</text>
+<circle cx="580" cy="121" r="3.5" fill="#ffffff" stroke="#d0d7de"/>
+<circle class="lit" cx="580" cy="121" r="3.5" fill="#e8710a" style="animation-delay:0.96s"/>
+<rect x="596" y="146" width="270" height="34" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
+<rect x="596" y="146" width="3" height="34" fill="#e8710a" class="lit" style="animation-delay:0.48s"/>
+<text x="612" y="168" class="m" font-size="13" fill="#1f2328">backend</text>
+<text x="854" y="168" class="m" font-size="11" fill="#6e7781" text-anchor="end">java · spring boot</text>
+<circle cx="580" cy="163" r="3.5" fill="#ffffff" stroke="#d0d7de"/>
+<circle class="lit" cx="580" cy="163" r="3.5" fill="#e8710a" style="animation-delay:0.48s"/>
+<rect x="596" y="188" width="270" height="34" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
+<rect x="596" y="188" width="3" height="34" fill="#e8710a" class="lit" style="animation-delay:0s"/>
+<text x="612" y="210" class="m" font-size="13" fill="#1f2328">datos</text>
+<text x="854" y="210" class="m" font-size="11" fill="#6e7781" text-anchor="end">postgresql · mysql</text>
+<circle cx="580" cy="205" r="3.5" fill="#ffffff" stroke="#d0d7de"/>
+<circle class="lit" cx="580" cy="205" r="3.5" fill="#e8710a" style="animation-delay:0s"/>
+</svg>
